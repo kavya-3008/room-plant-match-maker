@@ -1,0 +1,12 @@
+{
+  "name": "room-plant-matchmaker",
+  "version": "0.2.0",
+  "type": "module",
+  "description": "Simulate a room's daylight through the year, then match plants, grow lamps and a care plan to it.",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "test": "node --test tests/*.test.mjs",
+    "bench": "node scripts/bench.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
