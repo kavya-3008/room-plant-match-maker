@@ -7,3 +7,4 @@
 [2026-06-04T17:07:03] Optimize pipeline execution speed for 16x16 grids
 [2026-06-04T17:35:42] Adjust window sill, head, and overhang shadow geometry
 [2026-06-04T18:26:29] Adjust window sill, head, and overhang shadow geometry
+[2026-06-04T20:35:09] Clean up diagnosis probabilities and UI edge cases
