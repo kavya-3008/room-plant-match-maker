@@ -26,3 +26,4 @@
 [2026-06-09T22:26:09] Tune wall-bounce light distribution across floor grid
 [2026-06-10T11:23:13] Clean up diagnosis probabilities and UI edge cases
 [2026-06-10T15:49:34] Update plant light-range thresholds and pot size rules
+[2026-06-10T17:23:07] Adjust window sill, head, and overhang shadow geometry
