@@ -35,3 +35,4 @@
 [2026-06-14T22:09:38] Refine solar angle and seasonal light interpolation
 [2026-06-14T22:45:37] Adjust window sill, head, and overhang shadow geometry
 [2026-06-15T21:26:07] Expand unit test assertions for room orientation and sky types
+[2026-06-16T17:43:49] Tune wall-bounce light distribution across floor grid
