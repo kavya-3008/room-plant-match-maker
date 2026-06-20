@@ -40,3 +40,4 @@
 [2026-06-20T10:33:15] Adjust window sill, head, and overhang shadow geometry
 [2026-06-20T12:17:09] Update plant light-range thresholds and pot size rules
 [2026-06-20T12:32:54] Refine solar angle and seasonal light interpolation
+[2026-06-20T13:46:13] Polish 3D voxel rendering and time-slider responsiveness
