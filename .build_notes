@@ -37,3 +37,4 @@
 [2026-06-15T21:26:07] Expand unit test assertions for room orientation and sky types
 [2026-06-16T17:43:49] Tune wall-bounce light distribution across floor grid
 [2026-06-19T10:19:34] Polish 3D voxel rendering and time-slider responsiveness
+[2026-06-20T10:33:15] Adjust window sill, head, and overhang shadow geometry
