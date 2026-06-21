@@ -43,3 +43,4 @@
 [2026-06-20T13:46:13] Polish 3D voxel rendering and time-slider responsiveness
 [2026-06-20T21:34:50] Tune wall-bounce light distribution across floor grid
 [2026-06-21T11:34:02] Refine solar angle and seasonal light interpolation
+[2026-06-21T12:54:21] Integrate photo-brightness calibration and lamp floor map in pipeline
