@@ -49,3 +49,4 @@
 [2026-06-23T16:35:41] Polish 3D voxel rendering and time-slider responsiveness
 [2026-06-23T17:51:27] Adjust window sill, head, and overhang shadow geometry
 [2026-06-23T22:33:39] Optimize pipeline execution speed for 16x16 grids
+[2026-06-24T10:01:15] Update plant light-range thresholds and pot size rules
