@@ -52,3 +52,4 @@
 [2026-06-24T10:01:15] Update plant light-range thresholds and pot size rules
 [2026-06-24T15:17:15] Update plant light-range thresholds and pot size rules
 [2026-06-25T09:21:07] Clean up diagnosis probabilities and UI edge cases
+[2026-06-25T09:45:35] Polish 3D voxel rendering and time-slider responsiveness
