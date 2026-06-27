@@ -59,3 +59,4 @@
 [2026-06-26T17:18:17] Expand unit test assertions for room orientation and sky types
 [2026-06-26T21:48:04] Optimize pipeline execution speed for 16x16 grids
 [2026-06-27T11:09:06] Refine solar angle and seasonal light interpolation
+[2026-06-27T15:20:19] Update plant light-range thresholds and pot size rules
