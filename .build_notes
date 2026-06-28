@@ -61,3 +61,4 @@
 [2026-06-27T11:09:06] Refine solar angle and seasonal light interpolation
 [2026-06-27T15:20:19] Update plant light-range thresholds and pot size rules
 [2026-06-27T20:29:03] Expand unit test assertions for room orientation and sky types
+[2026-06-27T20:52:32] Adjust window sill, head, and overhang shadow geometry
