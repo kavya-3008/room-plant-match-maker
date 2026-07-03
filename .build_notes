@@ -69,3 +69,4 @@
 [2026-07-01T10:11:24] Expand unit test assertions for room orientation and sky types
 [2026-07-01T17:42:51] Refine solar angle and seasonal light interpolation
 [2026-07-02T16:21:45] Refine solar angle and seasonal light interpolation
+[2026-07-02T19:19:57] Adjust window sill, head, and overhang shadow geometry
