@@ -75,3 +75,4 @@
 [2026-07-04T13:22:04] Polish 3D voxel rendering and time-slider responsiveness
 [2026-07-04T22:46:17] Update plant light-range thresholds and pot size rules
 [2026-07-05T19:26:04] Add CRC-32 checksum validation and graceful error handling for damaged links
+[2026-07-06T17:33:28] Refine solar angle and seasonal light interpolation
