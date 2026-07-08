@@ -80,3 +80,4 @@
 [2026-07-06T21:04:42] Clean up diagnosis probabilities and UI edge cases
 [2026-07-07T15:36:45] Polish 3D voxel rendering and time-slider responsiveness
 [2026-07-07T15:40:35] Update plant light-range thresholds and pot size rules
+[2026-07-07T20:51:02] Refine solar angle and seasonal light interpolation
