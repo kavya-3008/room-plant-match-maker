@@ -82,3 +82,4 @@
 [2026-07-07T15:40:35] Update plant light-range thresholds and pot size rules
 [2026-07-07T20:51:02] Refine solar angle and seasonal light interpolation
 [2026-07-08T14:33:26] Tune wall-bounce light distribution across floor grid
+[2026-07-08T18:17:26] Polish 3D voxel rendering and time-slider responsiveness
