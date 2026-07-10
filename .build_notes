@@ -87,3 +87,4 @@
 [2026-07-10T10:35:49] Expand unit test assertions for room orientation and sky types
 [2026-07-10T11:19:43] Update plant light-range thresholds and pot size rules
 [2026-07-10T13:03:37] Polish 3D voxel rendering and time-slider responsiveness
+[2026-07-10T15:32:56] Adjust window sill, head, and overhang shadow geometry
