@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Room Plant Matchmaker</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Crect x=%225%22 y=%2210%22 width=%226%22 height=%225%22 fill=%22%23b5651d%22/%3E%3Crect x=%227%22 y=%223%22 width=%222%22 height=%227%22 fill=%22%232f8a3c%22/%3E%3Crect x=%223%22 y=%224%22 width=%224%22 height=%223%22 fill=%22%233fa84c%22/%3E%3Crect x=%229%22 y=%222%22 width=%224%22 height=%223%22 fill=%22%233fa84c%22/%3E%3C/svg%3E">
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<header><h1>Room Plant Matchmaker</h1><span>Simulate your room's daylight through the year, then get plants, lamps and a care plan that fit it.</span></header>
+<main>
+  <aside id="controls">
+    <section>
+      <h2>Location &amp; season</h2>
+      <label>City <select id="city"></select></label>
+      <label>Latitude <output id="latOut"></output><input id="lat" type="range" min="-60" max="66" step="0.1"></label>
+      <label>Room orientation <output id="rotOut"></output><input id="rotation" type="range" min="0" max="355" step="5"></label>
+      <label>Month <select id="month"></select></label>
+      <label>Typical sky
+        <select id="cloud"><option value="0.1">Mostly clear</option><option value="0.4">Mixed</option><option value="0.7">Mostly cloudy</option><option value="0.9">Overcast</option></select>
+      </label>
+    </section>
+    <section>
+      <h2>Room</h2>
+      <label>Width <output id="wOut"></output><input id="w" type="range" min="4" max="16" value="10"></label>
+      <label>Depth <output id="dOut"></output><input id="d" type="range" min="4" max="16" value="8"></label>
+      <p class="hint">1 block = 0.5 m. Rotate the room so its walls match your compass; the sun follows your latitude and month.</p>
+    </section>
+    <section>
+      <h2>Windows</h2>
+      <div id="windows"></div>
+      <button id="addWindow" type="button">+ Add window</button>
+    </section>
+    <section>
+      <h2>Doors</h2>
+      <div id="doors"></div>
+      <button id="addDoor" type="button">+ Add door</button>
+    </section>
+    <section>
+      <h2>Furniture</h2>
+      <div id="furniture"></div>
+      <div class="row-add"><select id="furnKind"></select><button id="addFurn" type="button">+ Add</button></div>
+      <p class="hint">Tall pieces cast shadows in the simulation. Plants are never placed under furniture or in a doorway.</p>
+    </section>
+    <section>
+      <h2>Preferences</h2>
+      <label class="row"><input id="pets" type="checkbox"> I have pets (pet-safe only)</label>
+      <label class="row"><input id="edible" type="checkbox"> Edible plants only</label>
+      <label>Experience
+        <select id="exp"><option value="1">Beginner</option><option value="2">Some experience</option><option value="3" selected>Confident</option></select>
+      </label>
+      <label>Number of plants <output id="nOut"></output><input id="n" type="range" min="1" max="10" value="6"></label>
+      <label>Photo brightness (optional)
+        <input id="photo" type="file" accept="image/*">
+      </label>
+      <p class="hint" id="photoHint">Upload a daytime photo of the room. Its average brightness scales the simulated light as a rough calibration.</p>
+    </section>
+    <ul id="errors" class="errors"></ul>
+    <button id="scan" class="primary" type="button">Scan room</button>
+  </aside>
+
+  <div id="stage">
+    <div id="view"></div>
+    <div id="toolbar">
+      <label>Time <input id="time" type="range" min="0.01" max="0.99" step="0.01" value="0.5"></label>
+      <label>Light map
+        <select id="heatMode"><option value="off">Off</option><option value="month">Daily total (DLI)</option><option value="now">Right now (PPFD)</option></select>
+      </label>
+      <label class="row"><input id="labels" type="checkbox" checked> Labels</label>
+      <span id="clock"></span>
+    </div>
+  </div>
+
+  <aside id="results">
+    <section><h2>Room light</h2><div id="lightBars"></div><div id="yearChart"></div></section>
+    <section><h2>Your plants</h2><div id="plants"></div><p class="hint" id="searchNote"></p></section>
+    <section><h2>Lighting plan</h2><ul id="lighting"></ul></section>
+    <section>
+      <h2>Watering, next 4 weeks</h2>
+      <div class="chores" id="chores"></div>
+      <div id="calendar"></div>
+      <button id="ics" type="button">Download calendar (.ics)</button>
+    </section>
+    <section>
+      <h2>Something wrong?</h2>
+      <label>Plant <select id="dxPlant"></select></label>
+      <div id="symptoms" class="symptoms"></div>
+      <label>I water it every <input id="dxWater" type="number" min="1" max="60" placeholder="days"> days</label>
+      <button id="dxRun" type="button">Diagnose</button>
+      <ol id="dxOut" class="dx"></ol>
+    </section>
+    <section>
+      <h2>Share</h2>
+      <button id="share" type="button">Copy link to this room</button>
+      <p class="hint" id="shareOut"></p>
+    </section>
+  </aside>
+</main>
+<script type="module" src="src/app.js"></script>
+</body>
+</html>
