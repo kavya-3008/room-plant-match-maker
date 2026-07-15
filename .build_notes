@@ -97,3 +97,4 @@
 [2026-07-12T20:56:38] Refine solar angle and seasonal light interpolation
 [2026-07-13T11:04:19] Optimize pipeline execution speed for 16x16 grids
 [2026-07-13T21:32:23] Tune wall-bounce light distribution across floor grid
+[2026-07-14T21:06:54] Clean up diagnosis probabilities and UI edge cases
