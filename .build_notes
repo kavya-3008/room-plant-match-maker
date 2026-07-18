@@ -100,3 +100,4 @@
 [2026-07-14T21:06:54] Clean up diagnosis probabilities and UI edge cases
 [2026-07-16T10:16:49] Clean up diagnosis probabilities and UI edge cases
 [2026-07-17T11:23:21] Update plant light-range thresholds and pot size rules
+[2026-07-18T09:39:08] Refine solar angle and seasonal light interpolation
