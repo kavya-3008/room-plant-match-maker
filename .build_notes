@@ -116,3 +116,4 @@
 [2026-07-26T22:29:25] Optimize pipeline execution speed for 16x16 grids
 [2026-07-29T13:31:28] Clean up diagnosis probabilities and UI edge cases
 [2026-07-29T18:07:09] Add chore-day checkboxes, Monday-first calendar download, and diagnosis panel
+[2026-07-29T21:22:54] Expand unit test assertions for room orientation and sky types
