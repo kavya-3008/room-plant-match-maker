@@ -118,3 +118,4 @@
 [2026-07-29T18:07:09] Add chore-day checkboxes, Monday-first calendar download, and diagnosis panel
 [2026-07-29T21:22:54] Expand unit test assertions for room orientation and sky types
 [2026-07-31T13:27:02] Polish 3D voxel rendering and time-slider responsiveness
+[2026-07-31T16:24:44] Tune wall-bounce light distribution across floor grid
