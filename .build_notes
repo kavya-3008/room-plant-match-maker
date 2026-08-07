@@ -132,3 +132,4 @@
 [2026-08-06T12:48:59] Adjust window sill, head, and overhang shadow geometry
 [2026-08-06T17:15:40] Optimize pipeline execution speed for 16x16 grids
 [2026-08-06T22:00:10] Refine solar angle and seasonal light interpolation
+[2026-08-07T16:28:28] Polish 3D voxel rendering and time-slider responsiveness
