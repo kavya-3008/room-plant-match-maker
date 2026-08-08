@@ -134,3 +134,4 @@
 [2026-08-06T22:00:10] Refine solar angle and seasonal light interpolation
 [2026-08-07T16:28:28] Polish 3D voxel rendering and time-slider responsiveness
 [2026-08-07T17:01:01] Clean up diagnosis probabilities and UI edge cases
+[2026-08-08T15:41:58] Expand unit test assertions for room orientation and sky types
