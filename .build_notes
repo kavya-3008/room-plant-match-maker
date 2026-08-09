@@ -136,3 +136,4 @@
 [2026-08-07T17:01:01] Clean up diagnosis probabilities and UI edge cases
 [2026-08-08T15:41:58] Expand unit test assertions for room orientation and sky types
 [2026-08-08T20:20:29] Adjust window sill, head, and overhang shadow geometry
+[2026-08-08T21:20:17] Expand unit test assertions for room orientation and sky types
