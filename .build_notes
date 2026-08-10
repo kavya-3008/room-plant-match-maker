@@ -140,3 +140,4 @@
 [2026-08-09T10:01:41] Optimize pipeline execution speed for 16x16 grids
 [2026-08-09T11:32:20] Adjust window sill, head, and overhang shadow geometry
 [2026-08-09T12:15:38] Expand unit test assertions for room orientation and sky types
+[2026-08-10T11:33:05] Polish 3D voxel rendering and time-slider responsiveness
