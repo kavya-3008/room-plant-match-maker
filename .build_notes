@@ -158,3 +158,4 @@
 [2026-08-17T13:51:25] Add seasonal sun depth and overhang shadow physics tests
 [2026-08-17T14:11:38] Polish 3D voxel rendering and time-slider responsiveness
 [2026-08-17T22:08:45] Adjust window sill, head, and overhang shadow geometry
+[2026-08-19T13:21:10] Tune wall-bounce light distribution across floor grid
