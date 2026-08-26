@@ -168,3 +168,4 @@
 [2026-08-24T22:31:22] Refine solar angle and seasonal light interpolation
 [2026-08-24T22:52:45] Adjust window sill, head, and overhang shadow geometry
 [2026-08-25T20:22:02] Update plant light-range thresholds and pot size rules
+[2026-08-25T20:51:29] Clean up diagnosis probabilities and UI edge cases
