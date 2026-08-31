@@ -177,3 +177,4 @@
 [2026-08-27T22:27:46] Clean up diagnosis probabilities and UI edge cases
 [2026-08-28T09:51:47] Tune wall-bounce light distribution across floor grid
 [2026-08-30T16:08:27] Expand unit test assertions for room orientation and sky types
+[2026-08-30T18:56:56] Refine solar angle and seasonal light interpolation
