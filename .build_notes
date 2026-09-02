@@ -183,3 +183,4 @@
 [2026-09-01T20:25:57] Refine solar angle and seasonal light interpolation
 [2026-09-01T21:12:42] Refine solar angle and seasonal light interpolation
 [2026-09-02T16:58:12] Add exhaustive single-bit flip test for CRC-32 share link rejection
+[2026-09-02T16:59:59] Clean up diagnosis probabilities and UI edge cases
