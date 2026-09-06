@@ -188,3 +188,4 @@
 [2026-09-03T10:59:34] Refine solar angle and seasonal light interpolation
 [2026-09-03T13:48:45] Expand unit test assertions for room orientation and sky types
 [2026-09-05T16:19:19] Expand unit test assertions for room orientation and sky types
+[2026-09-05T19:08:03] Update plant light-range thresholds and pot size rules
