@@ -191,3 +191,4 @@
 [2026-09-05T19:08:03] Update plant light-range thresholds and pot size rules
 [2026-09-06T16:59:13] Optimize pipeline execution speed for 16x16 grids
 [2026-09-07T10:21:41] Adjust window sill, head, and overhang shadow geometry
+[2026-09-07T15:23:19] Polish 3D voxel rendering and time-slider responsiveness
