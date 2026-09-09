@@ -199,3 +199,4 @@
 [2026-09-09T11:09:39] Fix succulent watering interval calculation (~9 days instead of 4.6)
 [2026-09-09T13:47:44] Tune wall-bounce light distribution across floor grid
 [2026-09-09T14:14:02] Adjust window sill, head, and overhang shadow geometry
+[2026-09-09T14:15:49] Update plant light-range thresholds and pot size rules
