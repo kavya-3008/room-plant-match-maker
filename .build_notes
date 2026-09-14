@@ -211,3 +211,4 @@
 [2026-09-13T12:03:00] Refine solar angle and seasonal light interpolation
 [2026-09-13T13:49:43] Expand unit test assertions for room orientation and sky types
 [2026-09-14T15:28:50] Fix lamp planner reporting wrong plant shortfall and 0.1 false-short warning
+[2026-09-14T16:21:56] Update plant light-range thresholds and pot size rules
