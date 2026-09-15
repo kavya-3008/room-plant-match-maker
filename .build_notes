@@ -213,3 +213,4 @@
 [2026-09-14T15:28:50] Fix lamp planner reporting wrong plant shortfall and 0.1 false-short warning
 [2026-09-14T16:21:56] Update plant light-range thresholds and pot size rules
 [2026-09-14T21:39:14] Expand unit test assertions for room orientation and sky types
+[2026-09-15T14:28:01] Polish 3D voxel rendering and time-slider responsiveness
