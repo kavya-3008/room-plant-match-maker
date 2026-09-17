@@ -220,3 +220,4 @@
 [2026-09-16T19:41:02] Optimize pipeline execution speed for 16x16 grids
 [2026-09-17T11:14:39] Tune wall-bounce light distribution across floor grid
 [2026-09-17T11:55:40] Adjust window sill, head, and overhang shadow geometry
+[2026-09-17T16:45:23] Clean up diagnosis probabilities and UI edge cases
