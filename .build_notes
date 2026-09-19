@@ -223,3 +223,4 @@
 [2026-09-17T16:45:23] Clean up diagnosis probabilities and UI edge cases
 [2026-09-17T17:12:30] Polish 3D voxel rendering and time-slider responsiveness
 [2026-09-17T20:09:14] Polish 3D voxel rendering and time-slider responsiveness
+[2026-09-18T21:34:28] Tune wall-bounce light distribution across floor grid
