@@ -236,3 +236,4 @@
 [2026-09-25T09:53:49] Tune wall-bounce light distribution across floor grid
 [2026-09-25T13:36:43] Optimize pipeline execution speed for 16x16 grids
 [2026-09-25T15:17:02] Optimize pipeline execution speed for 16x16 grids
+[2026-09-25T15:39:07] Adjust window sill, head, and overhang shadow geometry
