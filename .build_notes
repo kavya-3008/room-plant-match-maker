@@ -251,3 +251,4 @@
 [2026-09-28T19:45:19] Polish 3D voxel rendering and time-slider responsiveness
 [2026-09-29T09:00:39] Expand unit test assertions for room orientation and sky types
 [2026-09-29T21:55:17] Adjust window sill, head, and overhang shadow geometry
+[2026-09-30T11:26:13] Refine solar angle and seasonal light interpolation
